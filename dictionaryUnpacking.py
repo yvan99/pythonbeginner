@@ -19,21 +19,3 @@ customer["birthdate"] = "Jan 2nd"
 print(customer.get("names"))
 
 # dictionary emoji converter
-
-message = input(">")
-wordSplitter = message.split(" ")
-emojis = {
-    ":)":"😅",
-    ":D":"😂",
-    ":P":"😊",
-    ":(": "😁",
-    ":O":"😂",
-    ":P":"😊",
-    ":P":"😊",
-    ":(":"😞" 
-}
-output = ""
-for word in wordSplitter:
-    emojis.get(word,word)
-    output += emojis.get(word,word)
-    print(output)
