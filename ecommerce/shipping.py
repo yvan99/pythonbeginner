@@ -1,4 +1,2 @@
 def calculateShipping():
-    return "Hello"
-
-calculateShipping()
+    print ('calculating shipping')
